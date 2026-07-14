@@ -3916,3 +3916,10 @@ getgenv().Library = {
 end
 
 return getgenv().Library
+-- Ini contoh skrip pemanggil yang sering terlupakan
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/kholiknya17/ZupermingHub/refs/heads/main/UI.lua"))() 
+
+local Window = Library:CreateWindow({
+    Name = "ZUPERMING",
+    Theme = "Dark"
+})
